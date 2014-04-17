@@ -1,12 +1,14 @@
-PATH
-  remote: ../spec_score_api
+GIT
+  remote: git://github.com/erpe/spec-score-api.git
+  revision: 0662713d95b8f8dcc5cecdb180b40aed231601bc
   specs:
     spec_score_api (0.0.1.pre.2)
       jbuilder
       rails (~> 4.1)
 
-PATH
-  remote: ../spec_score_registry
+GIT
+  remote: git://github.com/erpe/spec-score-registry.git
+  revision: 27a5dc6db001eb9d6923e2575f1634da10c86d64
   specs:
     spec_score_registry (0.0.1.pre.6)
       devise
