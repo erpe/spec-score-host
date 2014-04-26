@@ -1,7 +1,7 @@
 PATH
   remote: ../spec_score_api
   specs:
-    spec_score_api (0.0.1.pre.2)
+    spec_score_api (0.0.1.pre.3)
       jbuilder
       rails (~> 4.1)
 
