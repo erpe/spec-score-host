@@ -11,9 +11,9 @@
   <div id='container' class='container'>
     <%= yield %>
   <% if current_user %>
-    <%= link_to 'logout', spec_score_registry.destroy_user_session_path, method: :delete %>
+    <%= link_to 'logout', destroy_user_session_path, method: :delete %>
   <% else %>
-    <%= link_to 'login', spec_score_registry.new_user_session_path %>
+    <%= link_to 'login', new_user_session_path %>
   <% end %>
     <div id='push'></div>
   </div>
