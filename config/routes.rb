@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'omniauth_callback/github'
+
   get 'dashboard/index', as: :dashboard
 
   devise_for :users
